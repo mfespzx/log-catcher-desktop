@@ -1,7 +1,5 @@
 # # Log Catcher Desktop
-![Uploading レコーディング 2026-03-21 074707.gif…]()
-
-
+![レコーディング 2026-03-21 074707](https://github.com/user-attachments/assets/c8dead26-3bdb-4145-8d1e-2555e49ed802)
 
 
 # Log Catcher Desktop は、JSON ファイルを読み込んで TODO やメモを電光掲示板風のティッカー表示で流せる、Electron 製のデスクトップガジェットです。
