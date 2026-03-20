@@ -1,0 +1,12 @@
+{
+  "name": "log-cacher-ticker-gadget",
+  "version": "0.1.0",
+  "description": "Electron desktop ticker gadget for Log Cacher TODO JSON",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^36.1.0"
+  }
+}

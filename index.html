@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self';" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log Cacher Ticker Gadget</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="drag-bar"></div>
+    <div id="app" class="app">
+      <div id="status-lamp" class="status-lamp lamp-idle" title="状態ランプ"></div>
+      <div id="ticker-frame" class="ticker-frame">
+        <div id="ticker-text" class="ticker-text">Log Cacher TODO を待っています…</div>
+      </div>
+      <div class="meta-panel">
+        <div id="counts" class="counts">TODO 0 / DONE 0</div>
+        <div id="position" class="position">0 / 0</div>
+      </div>
+    </div>
+
+    <div id="error-bar" class="error-bar hidden"></div>
+    <div id="hint-bar" class="hint-bar hidden"></div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
